@@ -7,25 +7,25 @@ export const TestimonialsSection = () => {
       name: "Ana García",
       location: "Centro Histórico, Trujillo",
       rating: 5,
-      text: "Mis hijos comen lechugas y tomates frescos todos los días. Ya no compro verduras en el mercado y mis niños hasta me ayudan a cosechar.",
-      plants: "Lechugas, tomates cherry, espinacas",
-      savings: "Más salud y tiempo en familia"
+      text: "Ahora puedo monitorear el crecimiento de mis cultivos desde el celular. Sé cuándo regar y fertilizar, y mis cosechas han mejorado notablemente.",
+      crops: "Maíz, papa, zanahoria",
+      benefits: "Mejor producción y menos pérdidas"
     },
     {
       name: "Carlos Rodríguez",
       location: "La Esperanza, Trujillo",
       rating: 5,
-      text: "Mi esposa está feliz porque siempre tenemos culantro fresco para cocinar. La app me avisa todo y es súper fácil de usar.",
-      plants: "Culantro, perejil, albahaca",
-      savings: "Comidas más frescas y sabrosas"
+      text: "La aplicación me avisa sobre el clima y el estado de mis chacras. Así evito enfermedades y aprovecho mejor el agua.",
+      crops: "Culantro, cebolla, albahaca",
+      benefits: "Ahorro de agua y cultivos más sanos"
     },
     {
       name: "María Vásquez",
       location: "El Porvenir, Trujillo",
       rating: 5,
-      text: "En mi balcón pequeño tengo más verduras que antes en mi patio grande. Mis amigas no lo pueden creer cuando les muestro mi huerto.",
-      plants: "Acelgas, espinacas, lechuga",
-      savings: "Orgullo de cultivar mis propios alimentos"
+      text: "Con la tecnología puedo ver el avance de mis sembríos y tomar decisiones rápidas. Ahora vendo productos de mejor calidad en el mercado.",
+      crops: "Acelga, espinaca, lechuga",
+      benefits: "Más ingresos y productos frescos"
     }
   ];
 
@@ -34,11 +34,10 @@ export const TestimonialsSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4 font-poppins">
-            Familias Felices con su Huerto HOGARVERDE
+            Agricultores Satisfechos con el Monitoreo de sus Chacras
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto font-inter">
-            Historias reales de familias trujillanas que transformaron su alimentación 
-            con su propio huerto en casa.
+            Experiencias reales de agricultores trujillanos que optimizan el crecimiento de sus cultivos con monitoreo inteligente.
           </p>
         </div>
 
@@ -65,10 +64,10 @@ export const TestimonialsSection = () => {
                   <div className="text-sm text-gray-600 mb-2 font-inter">{testimonial.location}</div>
                   <div className="flex flex-wrap gap-2">
                     <span className="px-2 py-1 bg-green-100 text-green-800 text-xs rounded-full font-inter">
-                      {testimonial.plants}
+                      {testimonial.crops}
                     </span>
                     <span className="px-2 py-1 bg-blue-100 text-blue-800 text-xs rounded-full font-inter">
-                      Ahorra {testimonial.savings}
+                      {testimonial.benefits}
                     </span>
                   </div>
                 </div>
@@ -80,24 +79,24 @@ export const TestimonialsSection = () => {
         <div className="mt-16 text-center">
           <div className="bg-green-50 border border-green-200 rounded-xl p-8 inline-block">
             <h3 className="text-2xl font-bold text-green-800 mb-4 font-poppins">
-              Resultados Promedio de Nuestras Familias
+              Resultados Promedio de Nuestros Agricultores
             </h3>
             <div className="grid grid-cols-1 md:grid-cols-4 gap-6 text-center">
               <div>
-                <div className="text-3xl font-bold text-green-600 font-playfair">S/185</div>
-                <div className="text-sm text-green-700 font-inter">Ahorro mensual familiar</div>
+                <div className="text-3xl font-bold text-green-600 font-playfair">+20%</div>
+                <div className="text-sm text-green-700 font-inter">Aumento en la producción</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-green-600 font-playfair">95%</div>
-                <div className="text-sm text-green-700 font-inter">Menos compras de verduras</div>
+                <div className="text-3xl font-bold text-green-600 font-playfair">30%</div>
+                <div className="text-sm text-green-700 font-inter">Menos uso de agua</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-green-600 font-playfair">8</div>
-                <div className="text-sm text-green-700 font-inter">Variedades en el huerto</div>
+                <div className="text-3xl font-bold text-green-600 font-playfair">10</div>
+                <div className="text-sm text-green-700 font-inter">Tipos de cultivos monitoreados</div>
               </div>
               <div>
-                <div className="text-3xl font-bold text-green-600 font-playfair">98%</div>
-                <div className="text-sm text-green-700 font-inter">Familias satisfechas</div>
+                <div className="text-3xl font-bold text-green-600 font-playfair">97%</div>
+                <div className="text-sm text-green-700 font-inter">Agricultores satisfechos</div>
               </div>
             </div>
           </div>

@@ -4,18 +4,18 @@ export const ProblemSection = () => {
   const problems = [
     {
       icon: Home,
-      title: "Sin Espacio para Huerto",
-      description: "Las familias trujillanas viven en espacios reducidos sin lugar para cultivar sus propios alimentos frescos."
+      title: "Falta de Supervisión en el Campo",
+      description: "Muchos agricultores no pueden monitorear constantemente sus chacras, lo que dificulta detectar problemas a tiempo."
     },
     {
       icon: Clock,
-      title: "No Tengo Tiempo ni Conocimiento",
-      description: "Entre trabajo y familia, no queda tiempo para aprender sobre huertos tradicionales que requieren mucho cuidado."
+      title: "Poco Tiempo y Recursos",
+      description: "El trabajo agrícola demanda mucho tiempo y esfuerzo, y no siempre hay suficiente personal para vigilar el crecimiento de los cultivos."
     },
     {
       icon: TrendingDown,
-      title: "Verduras Caras en el Mercado",
-      description: "El costo de verduras frescas sube cada mes y la familia depende completamente de comprar todo en el mercado."
+      title: "Pérdidas por Plagas y Clima",
+      description: "Sin monitoreo adecuado, las plagas o cambios climáticos afectan los sembríos, generando pérdidas económicas y menor producción."
     }
   ];
 
@@ -27,11 +27,10 @@ export const ProblemSection = () => {
             <AlertTriangle className="h-12 w-12 text-red-500" />
           </div>
           <h2 className="text-4xl font-bold text-gray-900 mb-4 font-poppins">
-            ¿Por qué las Familias no Tienen su Propio Huerto?
+            ¿Por qué es Difícil Monitorear los Sembríos en las Chacras?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto font-inter">
-            Las familias trujillanas quieren alimentos frescos y saludables para sus hijos, 
-            pero enfrentan obstáculos para tener su huerto familiar.
+            Los agricultores buscan optimizar el crecimiento de sus cultivos, pero enfrentan obstáculos para monitorear de manera eficiente sus sembríos.
           </p>
         </div>
 
@@ -63,9 +62,7 @@ export const ProblemSection = () => {
             </div>
             <div className="ml-3">
               <p className="text-sm text-red-700 font-inter">
-                <strong>Realidad:</strong> En Trujillo, solo el 12% de las familias urbanas 
-                tienen algún tipo de huerto en casa, perdiendo la oportunidad de tener alimentos 
-                frescos y ahorrar hasta S/250 mensuales en verduras para la familia.
+                <strong>Realidad:</strong> En muchas zonas agrícolas, menos del 20% de los sembríos cuentan con monitoreo constante, lo que reduce la productividad y aumenta el riesgo de pérdidas por factores no detectados a tiempo.
               </p>
             </div>
           </div>

@@ -5,20 +5,20 @@ export const FeaturesSection = () => {
   const features = [
     {
       icon: Smartphone,
-      title: "App Familiar Gratuita",
-      description: "Controla tu huerto desde el celular. Recibe fotos de tus plantas y notificaciones cuando estén listas para cosechar.",
+      title: "Monitoreo Remoto",
+      description: "Supervisa tus sembríos desde cualquier lugar con nuestra app. Recibe alertas y reportes sobre el estado de tus cultivos en tiempo real.",
       color: "bg-blue-100 text-blue-600"
     },
     {
       icon: Settings,
-      title: "Crece con tu Familia",
-      description: "Empieza con un huerto básico y agrega más módulos cuando quieras más variedad de verduras para tu familia.",
+      title: "Escalabilidad para Chacras",
+      description: "Integra sensores y módulos adicionales a medida que tu chacra crece, adaptándose a diferentes tipos y extensiones de cultivos.",
       color: "bg-purple-100 text-purple-600"
     },
     {
       icon: Award,
-      title: "Garantía Total",
-      description: "2 años de garantía con soporte técnico en Trujillo. Si algo se malogra, lo cambiamos gratis.",
+      title: "Soporte y Garantía",
+      description: "2 años de garantía y soporte técnico local. Si algún equipo falla, lo reemplazamos sin costo para asegurar tu producción.",
       color: "bg-yellow-100 text-yellow-600"
     }
   ];
@@ -28,11 +28,10 @@ export const FeaturesSection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-gray-900 mb-4 font-poppins">
-            ¿Por qué Elegir HOGARVERDE?
+            ¿Por qué Elegir GreenGrassValley para tu Chacra?
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto font-inter">
-            Tu huerto familiar inteligente con todo lo que necesitas para tener 
-            verduras frescas y saludables en casa, sin complicaciones.
+            Solución inteligente para monitorear y optimizar el crecimiento de tus cultivos, mejorando el rendimiento y reduciendo riesgos en tu chacra.
           </p>
         </div>
 
@@ -58,19 +57,19 @@ export const FeaturesSection = () => {
         </div>
 
         <div className="mt-16 bg-gradient-to-r from-green-600 to-blue-600 rounded-xl p-8 text-white text-center">
-          <h3 className="text-2xl font-bold mb-4 font-poppins">¿Lista tu familia para su primer huerto?</h3>
+          <h3 className="text-2xl font-bold mb-4 font-poppins">¿Listo para optimizar tus sembríos?</h3>
           <p className="text-xl opacity-90 mb-6 font-inter">
-            Únete a más de 180 familias trujillanas que ya disfrutan verduras frescas en casa
+            Únete a productores que ya mejoran el crecimiento y la salud de sus cultivos con monitoreo inteligente.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <span className="px-6 py-3 bg-white/20 rounded-lg font-semibold font-poppins">
-              🌱 Kit Básico S/245
+              🌱 Kit de Monitoreo
             </span>
             <span className="px-6 py-3 bg-white/20 rounded-lg font-semibold font-poppins">
-              📱 App Gratuita para Toda la Familia
+              📱 App Gratuita para Productores
             </span>
             <span className="px-6 py-3 bg-white/20 rounded-lg font-semibold font-poppins">
-              🚚 Instalado en tu Casa en 24 horas
+              🚚 Instalación y Soporte en tu Chacra
             </span>
           </div>
         </div>

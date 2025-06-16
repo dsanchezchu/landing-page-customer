@@ -55,12 +55,15 @@ export default function Dashboard() {
             <Mail className="h-4 w-4" /> {user?.email || "correo@ejemplo.com"}
           </span>
           {/* Botón de cerrar sesión */}
-          <button
-            onClick={handleLogout}
+            <button
+            onClick={() => {
+              handleLogout();
+              window.location.href = "/login";
+            }}
             className="mt-4 flex items-center gap-2 px-3 py-1.5 rounded-md bg-red-50 text-red-600 hover:bg-red-100 transition text-xs font-semibold"
-          >
+            >
             <LogOut className="h-4 w-4" /> Cerrar sesión
-          </button>
+            </button>
         </div>
         <div className="mt-8">
           <Card>

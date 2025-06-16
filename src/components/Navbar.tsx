@@ -21,8 +21,9 @@ export const Navbar = () => {
                 <div className="flex items-center gap-2">
                     <Leaf className="h-8 w-8 md:h-10 md:w-10 text-green-600 drop-shadow-lg" />
                     <span className="font-mogra text-2xl md:text-3xl font-extrabold text-emerald-700 tracking-tight drop-shadow-lg">
-                        HOGAR
-                        <span className="text-lime-500">VERDE</span>
+                        Green
+                        <span className="text-lime-500">Grass</span>
+                        Valley
                     </span>
                 </div>
                 {/* Desktop nav */}

@@ -9,12 +9,10 @@ export const Footer = () => {
           <div className="col-span-1 md:col-span-2">
             <div className="flex items-center mb-4">
               <Leaf className="h-8 w-8 text-green-400 mr-3" />
-              <span className="text-2xl font-bold font-mogra">HOGARVERDE</span>
+              <span className="text-2xl font-bold font-mogra">GreenGrassValley</span>
             </div>
             <p className="text-gray-400 mb-6 max-w-md font-inter">
-              Sistema tecnológico para huertos urbanos domésticos que permite a las 
-              familias trujillanas cultivar alimentos frescos y saludables en casa, 
-              con tecnología inteligente adaptada a espacios reducidos.
+              Plataforma tecnológica para monitorizar sembríos en chacras, ayudando a los agricultores a optimizar el crecimiento de alimentos mediante tecnología inteligente y datos en tiempo real.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="bg-gray-800 p-2 rounded-lg hover:bg-gray-700 transition-colors">
@@ -34,11 +32,11 @@ export const Footer = () => {
             <h3 className="text-lg font-semibold mb-4 font-poppins">Enlaces Rápidos</h3>
             <ul className="space-y-2 font-inter">
               <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Inicio</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Tu Huerto en Casa</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Kits Familiares</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Familias Felices</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Quiero mi Huerto</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Soporte Familiar</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Monitorización de Chacras</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Soluciones para Agricultores</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Historias de Éxito</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Solicitar Demostración</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white transition-colors">Soporte Técnico</a></li>
             </ul>
           </div>
 
@@ -52,7 +50,7 @@ export const Footer = () => {
               </div>
               <div className="flex items-center">
                 <Mail className="h-4 w-4 text-green-400 mr-3" />
-                <span className="text-gray-400">contacto@hogarverde.pe</span>
+                <span className="text-gray-400">contacto@GreenGrassValley.pe</span>
               </div>
               <div className="flex items-center">
                 <MapPin className="h-4 w-4 text-green-400 mr-3" />
@@ -74,7 +72,7 @@ export const Footer = () => {
         <div className="border-t border-gray-800 pt-8 mt-12">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0 font-inter">
-              © 2025 HOGARVERDE. Todos los derechos reservados.
+              © 2025 GreenGrassValley. Todos los derechos reservados.
             </div>
             <div className="flex space-x-6 text-sm font-inter">
               <a href="#" className="text-gray-400 hover:text-white transition-colors">

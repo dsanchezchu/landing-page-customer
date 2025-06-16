@@ -8,19 +8,19 @@ export default function Problema() {
         <h1 className="text-4xl font-bold font-poppins text-green-700 mb-6">¿Cuál es el problema?</h1>
         <div className="bg-white rounded-xl shadow-lg p-8 mb-8 border-l-4 border-green-400">
           <p className="text-lg font-inter text-gray-700 mb-4">
-            Las personas que desean cultivar en casa enfrentan limitaciones por espacio, falta de conocimiento para el cuidado adecuado de las plantas y dificultad para monitorear condiciones óptimas, lo que reduce la efectividad y sostenibilidad de sus cultivos.
+            Los agricultores que gestionan sembríos en chacras enfrentan dificultades para monitorear el crecimiento de los cultivos y asegurar condiciones óptimas, lo que puede afectar la productividad y calidad de los alimentos producidos.
           </p>
           <ul className="list-disc pl-6 text-gray-700 font-inter space-y-2">
-            <li>Espacios pequeños en viviendas urbanas.</li>
-            <li>Falta de experiencia en agricultura urbana.</li>
-            <li>Dificultad para monitorear humedad, temperatura y plagas.</li>
-            <li>Baja motivación por resultados poco visibles.</li>
+            <li>Dificultad para supervisar grandes extensiones de terreno.</li>
+            <li>Falta de acceso a información en tiempo real sobre humedad, temperatura y plagas.</li>
+            <li>Limitaciones en la toma de decisiones rápidas ante cambios climáticos o problemas en el cultivo.</li>
+            <li>Reducción en el rendimiento y calidad de los alimentos cosechados.</li>
           </ul>
         </div>
         <div className="text-center mt-8">
           <img
             src="https://www.serpar.gob.pe/wp-content/uploads/2022/09/Vivero_web.jpg"
-            alt="Problema viveros urbanos"
+            alt="Monitoreo de sembríos en chacras"
             className="rounded-xl mx-auto shadow-md max-h-72 object-cover"
           />
         </div>

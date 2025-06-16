@@ -6,14 +6,14 @@ import { Leaf } from "lucide-react";
 // Datos de prueba para login/register
 const FAKE_USERS = [
     {
-        email: "diego@hogarverde.com",
+        email: "diego@greengrassvalley.com",
         password: "123456",
         name: "Diego Dev",
     },
     {
-        email: "waltercueva@hogarverde.com",
+        email: "josecalderon@greengrassvalley.com",
         password: "123456",
-        name: "Walter Cueva",
+        name: "Jose Calderon",
     },
 ];
 
@@ -71,7 +71,7 @@ export default function Login() {
             <p className="text-gray-500 font-inter text-sm">
               {isRegister
                 ? "Regístrate para comenzar a monitorear tu huerto"
-                : "Accede a tu dashboard de HogarVerde"}
+                : "Accede a tu dashboard de GreenGrassValley"}
             </p>
           </div>
           {error && (

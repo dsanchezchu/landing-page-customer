@@ -4,7 +4,7 @@ export const TypographySection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-4 font-poppins">
-            Tipografía HOGARVERDE
+            Tipografía GreenGrassValley
           </h2>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto font-inter">
             Sistema tipográfico cuidadosamente seleccionado para transmitir calidez familiar, 
@@ -21,7 +21,7 @@ export const TypographySection = () => {
             
             <div className="space-y-6">
               <div className="border-l-4 border-green-500 pl-4">
-                <h4 className="font-mogra text-2xl text-gray-900 mb-2">HOGARVERDE - Mogra</h4>
+                <h4 className="font-mogra text-2xl text-gray-900 mb-2">GreenGrassValley - Mogra</h4>
                 <p className="text-sm text-gray-600 font-inter">
                   <strong>Uso:</strong> Nombre de la marca únicamente<br/>
                   <strong>Características:</strong> Fuente decorativa, amigable y memorable<br/>
@@ -82,12 +82,12 @@ export const TypographySection = () => {
         {/* Jerarquía Tipográfica */}
         <div className="mt-12 bg-white rounded-xl p-8 shadow-lg">
           <h3 className="text-xl font-semibold text-gray-900 mb-6 font-poppins">
-            Jerarquía Tipográfica para HOGARVERDE
+            Jerarquía Tipográfica para GreenGrassValley
           </h3>
           
           <div className="space-y-4">
             <div className="flex items-center justify-between border-b pb-2">
-              <span className="font-mogra text-4xl text-green-600">HOGARVERDE</span>
+              <span className="font-mogra text-4xl text-green-600">GreenGrassValley</span>
               <span className="text-sm text-gray-500 font-inter">H1 Marca - Mogra Bold</span>
             </div>
             

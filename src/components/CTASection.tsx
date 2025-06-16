@@ -23,7 +23,7 @@ export const CTASection = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Formulario de Cotización */}
-          <Card className="shadow-xl">
+            <Card className="shadow-xl">
             <CardHeader className="text-center">
               <div className="flex justify-center mb-4">
                 <div className="p-3 bg-green-100 rounded-full">
@@ -35,7 +35,7 @@ export const CTASection = () => {
                 Recibe una propuesta personalizada para tu terreno en menos de 24 horas
               </CardDescription>
             </CardHeader>
-            <CardContent>
+            <CardContent className="pb-4">
               <form onSubmit={handleSubmit} className="space-y-4">
                 <div>
                   <label className="block text-sm font-medium text-gray-700 mb-2">
@@ -91,7 +91,7 @@ export const CTASection = () => {
                 
                 <Button 
                   type="submit" 
-                  className="w-full bg-green-600 hover:bg-green-700 text-lg py-6"
+                  className="w-full bg-green-600 hover:bg-green-700 text-lg py-3"
                 >
                   Solicitar Cotización Gratuita
                 </Button>
@@ -115,7 +115,7 @@ export const CTASection = () => {
               </div>
               <CardTitle className="text-2xl">Descarga la App para Windows</CardTitle>
               <CardDescription>
-                Controla y monitorea tu sistema HOGARVERDE desde tu PC Windows
+                Controla y monitorea tu sistema GreenGrassValley desde tu PC Windows
               </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">
@@ -160,7 +160,7 @@ export const CTASection = () => {
               </div>
               <CardTitle className="text-2xl">Descarga la App para Android</CardTitle>
               <CardDescription>
-                Lleva el control de tu sistema HOGARVERDE en tu dispositivo móvil Android
+                Lleva el control de tu sistema GreenGrassValley en tu dispositivo móvil Android
               </CardDescription>
               </CardHeader>
               <CardContent className="space-y-6">

@@ -48,15 +48,15 @@ export const Hero = () => {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
         <div className="animate-fade-in">
           <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight font-mogra">
-            <span className="block">HOGARVERDE</span>
+            <span className="block">GreenGrassValley</span>
             <span className="block text-green-200 font-sriracha">
-              Tu súper huerto en casa
+              Monitorea tus cultivos de chacra
             </span>
           </h1>
 
           <p className="text-xl md:text-2xl mb-8 max-w-3xl mx-auto leading-relaxed opacity-90 font-inter">
-            Sistema tecnológico para crear tu propio huerto urbano en casa.
-            Cultiva alimentos frescos y saludables para tu familia en Trujillo, usando tecnología inteligente en espacios pequeños.
+            Plataforma tecnológica para monitorizar el crecimiento de alimentos en tus sembríos de chacra.
+            Supervisa el estado de tus cultivos en Trujillo usando tecnología inteligente y toma decisiones informadas para mejorar tu producción agrícola.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -64,7 +64,7 @@ export const Hero = () => {
               size="lg"
               className="bg-white text-green-600 hover:bg-green-50 px-8 py-4 text-lg font-semibold group transition-all duration-300 hover:scale-105 font-poppins"
             >
-              Quiero mi Huerto
+              Quiero monitorear mi chacra
               <Quote className="ml-2 h-5 w-5 group-hover:rotate-12 transition-transform" />
             </Button>
 
@@ -73,7 +73,7 @@ export const Hero = () => {
               size="lg"
               className="border-white text-white hover:bg-white hover:text-green-600 px-8 py-4 text-lg font-semibold group transition-all duration-300 hover:scale-105 font-poppins"
             >
-              Descargar App de Control
+              Descargar App de Monitoreo
               <Download className="ml-2 h-5 w-5 group-hover:translate-y-1 transition-transform" />
             </Button>
           </div>
@@ -84,7 +84,7 @@ export const Hero = () => {
                 24/7
               </div>
               <div className="text-sm opacity-90 font-inter">
-                Cuidado automático
+                Monitoreo automático
               </div>
             </div>
             <div className="text-center p-6 bg-white/10 backdrop-blur-sm rounded-xl border border-white/20">
@@ -92,7 +92,7 @@ export const Hero = () => {
                 100%
               </div>
               <div className="text-sm opacity-90 font-inter">
-                Alimentos para tu familia
+                Control de crecimiento de alimentos
               </div>
             </div>
           </div>
