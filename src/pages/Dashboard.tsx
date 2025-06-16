@@ -58,7 +58,7 @@ export default function Dashboard() {
             <button
             onClick={() => {
               handleLogout();
-              window.location.href = "/login";
+              window.location.replace("/login");
             }}
             className="mt-4 flex items-center gap-2 px-3 py-1.5 rounded-md bg-red-50 text-red-600 hover:bg-red-100 transition text-xs font-semibold"
             >

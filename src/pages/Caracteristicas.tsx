@@ -48,7 +48,7 @@ export default function Caracteristicas() {
       </div>
       <div className="text-center mt-8">
         <img
-        src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80"
+        src="https://gestion.pe/resizer/Ffqr6qjjyHOk-HPDbBEwgjbYgyw=/1200x675/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/DWIIQ7XFSVGHFIJEHORLORCO3Q.jfif"
         alt="Monitoreo de chacras"
         className="rounded-xl mx-auto shadow-md max-h-72 object-cover"
         />

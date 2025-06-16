@@ -70,7 +70,7 @@ export default function Login() {
             </h2>
             <p className="text-gray-500 font-inter text-sm">
               {isRegister
-                ? "Regístrate para comenzar a monitorear tu huerto"
+                ? "Regístrate para comenzar a monitorear tus sembrios"
                 : "Accede a tu dashboard de GreenGrassValley"}
             </p>
           </div>

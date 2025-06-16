@@ -19,7 +19,7 @@ export default function Problema() {
         </div>
         <div className="text-center mt-8">
           <img
-            src="https://www.serpar.gob.pe/wp-content/uploads/2022/09/Vivero_web.jpg"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9cSp6Thn1hWNHHS1UctA7LErjd4bDJhXehQ&s"
             alt="Monitoreo de sembríos en chacras"
             className="rounded-xl mx-auto shadow-md max-h-72 object-cover"
           />
