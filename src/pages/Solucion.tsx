@@ -1,10 +1,12 @@
 import { Navbar } from "@/components/Navbar";
 import { Leaf, Droplet, Thermometer } from "lucide-react";
+import { ParallaxBackground } from "@/effects/ParallaxBackground";
 
 export default function Solucion() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-green-50 to-white">
+    <div className="min-h-screen">
       <Navbar />
+      <ParallaxBackground />
       <main className="max-w-4xl mx-auto pt-32 px-4 pb-16">
         <h1 className="text-4xl font-bold font-poppins text-green-700 mb-6">Nuestra Solución</h1>
         <div className="bg-white rounded-xl shadow-lg p-8 mb-8 border-l-4 border-lime-400">

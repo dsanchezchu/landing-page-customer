@@ -5,6 +5,7 @@ import { FeaturesSection } from "@/components/FeaturesSection";
 import { ImageCarousel } from "@/components/ImageCarousel";
 import { CTASection } from "@/components/CTASection";
 import { TestimonialsSection } from "@/components/TestimonialsSection";
+import { VideoSection } from "@/components/VideoSection";
 import { ColorPaletteSection } from "@/components/ColorPaletteSection";
 import { TypographySection } from "@/components/TypographySection";
 import { LinksSection } from "../components/LinksSection";
@@ -14,6 +15,7 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-b from-green-50 to-white">
       <Hero />
+      <VideoSection />
       <ProblemSection />
       <SolutionSection />
       <FeaturesSection />
